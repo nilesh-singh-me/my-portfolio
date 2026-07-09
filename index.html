@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nilesh | Full-Stack Developer</title>
+    <meta name="description" content="Portfolio of Nilesh, a Full-Stack Developer specializing in modern web applications.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="glass-header">
+        <nav class="navbar">
+            <a href="#home" class="logo">Dev.Nilesh</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-reveal">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="accent-text">Nilesh</span>,<br> a Full-Stack Developer</h1>
+                <p class="subtitle">Building beautiful, robust, and scalable web experiences.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-glow"></div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-reveal">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container glass-card">
+                <div class="about-image">
+                    <!-- Placeholder for profile picture -->
+                    <div class="profile-placeholder">N</div>
+                </div>
+                <div class="about-text">
+                    <p>Hello! I'm a passionate full-stack developer with a keen eye for design and a strong foundation in building reliable backend systems. I thrive on turning complex problems into elegant, user-friendly solutions.</p>
+                    <p>My journey in tech has equipped me with the skills to handle the entire lifecycle of web development, from conceptualization and UI/UX design to database architecture and deployment.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-reveal">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-card">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Next.js</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3>Tools & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Figma</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-reveal">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card glass-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, var(--accent-cyan), var(--bg-color));"></div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-featured online store with a custom shopping cart, secure checkout, and admin dashboard.</p>
+                        <div class="tech-stack">
+                            <span>React</span><span>Node.js</span><span>Stripe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card glass-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, var(--accent-purple), var(--bg-color));"></div>
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>A collaborative productivity tool with real-time updates, kanban boards, and team roles.</p>
+                        <div class="tech-stack">
+                            <span>Next.js</span><span>Firebase</span><span>Tailwind</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card glass-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, var(--accent-emerald), var(--bg-color));"></div>
+                    <div class="project-info">
+                        <h3>AI Content Generator</h3>
+                        <p>An application leveraging OpenAI's API to generate blog posts and marketing copy automatically.</p>
+                        <div class="tech-stack">
+                            <span>Vue.js</span><span>Python</span><span>OpenAI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-reveal">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-container glass-card">
+                <form class="contact-form">
+                    <div class="input-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required placeholder="John Doe">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" required placeholder="Your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Nilesh. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">GH</a>
+                <a href="#">LI</a>
+                <a href="#">TW</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
